@@ -35,5 +35,21 @@
         this._list = new LinkedList();
     }
 
+    /* Functions attached to the Queue prototype.  All queue instances
+     * will share these methods, meaning there will NOT be copies made for each
+     * instance.  This will be a huge memory savings since there may be several
+     * different queue instances.
+     */
+    Queue.prototype = {
+
+        isEmpty: function() {
+            return this._list.isEmpty();
+        },
+
+        size: function() {
+            return this._list.getSize();
+        }
+    };
+
     module.exports = Queue;
 })();
