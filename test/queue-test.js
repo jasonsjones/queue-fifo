@@ -49,4 +49,15 @@ describe('Queue Unit Tests', function() {
         queue.dequeue().should.equal('some more test data');
         queue.size().should.equal(1);
     });
+
+    it('should clear the queue of all data', function () {
+        queue.queue('some test data');
+        queue.queue('some more test data');
+        queue.queue('and yet some more');
+        queue.queue('and even more data');
+        queue.size().should.equal(4);
+        queue.clear();
+        queue.size().should.equal(0);
+        queue.isEmpty().should.equal(true);
+    });
 });

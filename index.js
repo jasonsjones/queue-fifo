@@ -50,6 +50,10 @@
             return this._list.getSize();
         },
 
+        clear: function () {
+            return this._list.clear();
+        },
+
         queue: function (data) {
             return this._list.insert(data);
         },
