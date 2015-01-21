@@ -28,18 +28,11 @@ describe('Queue Unit Tests', function() {
         queue.size().should.equal(0);
     });
 
-    it('should queue up data into the queue', function () {
+    it('should queue up data at the back of queue', function () {
         queue.queue('some test data');
         queue.queue('some more test data');
         queue.queue('and yet some more...');
-        queue.queue({
-            "id": 1,
-            "payload": {
-                "number": 42,
-                "desc": "the answer"
-            }
-        });
-        queue.size().should.equal(4);
+        queue.size().should.equal(3);
     });
 
     it('should dequeue data from the front of the queue', function () {
