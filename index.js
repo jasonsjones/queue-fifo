@@ -48,6 +48,14 @@
 
         size: function() {
             return this._list.getSize();
+        },
+
+        queue: function (data) {
+            return this._list.insert(data);
+        },
+
+        dequeue: function () {
+            return this._list.removeFirst().getData();
         }
     };
 
