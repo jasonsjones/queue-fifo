@@ -60,6 +60,16 @@
 
         dequeue: function () {
             return this._list.removeFirst().getData();
+        },
+
+        /**
+         * Returns the data of the item at the front of the queue,
+         * but does not remove it
+         *
+         * @returns {object} the item, or data, from the top of the stack
+         */
+        peek: function () {
+            return this._list.getHeadNode().getData();
         }
     };
 
