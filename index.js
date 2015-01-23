@@ -42,22 +42,45 @@
      */
     Queue.prototype = {
 
+        /**
+         * Determines if the queue is empty
+         *
+         * @returns {boolean} true if the queue is empty, false otherwise
+         */
         isEmpty: function() {
             return this._list.isEmpty();
         },
 
+        /**
+         * Returns the size, or number of items in the queue
+         *
+         * @returns {number} the number of items in the queue
+         */
         size: function() {
             return this._list.getSize();
         },
 
+        /**
+         * Clears the queue of all data
+         */
         clear: function () {
             return this._list.clear();
         },
 
+        /**
+         * Adds a new item containing 'data' to the back of the queue
+         *
+         * @param {object} data the data to add to the back of the queue
+         */
         queue: function (data) {
             return this._list.insert(data);
         },
 
+        /**
+         * Removes the item from the front of the queue
+         *
+         * @returns {object} the item, or data, from the front of the queue
+         */
         dequeue: function () {
             return this._list.removeFirst().getData();
         },
@@ -73,5 +96,7 @@
         }
     };
 
+    // export the constructor fn to make it available for use outside
+    // this file
     module.exports = Queue;
 })();
