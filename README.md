@@ -121,7 +121,7 @@ queue.isEmpty();
 * ### clear()
     Clears the queue of all data
 
-* ### enqueue()
+* ### enqueue(data)
     Adds an new item containing 'data' to the back of the queue
 
 * ### dequeue()
