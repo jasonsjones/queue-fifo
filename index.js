@@ -72,7 +72,7 @@
          *
          * @param {object} data the data to add to the back of the queue
          */
-        queue: function (data) {
+        enqueue: function (data) {
             return this._list.insert(data);
         },
 

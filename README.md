@@ -78,10 +78,10 @@ var queue - new Queue();
 queue.isEmpty();
 // --> true
 
-queue.queue('data item 1');
-queue.queue('data item 2');
-queue.queue('data item 3');
-queue.queue('data item 4');
+queue.enqueue('data item 1');
+queue.enqueue('data item 2');
+queue.enqueue('data item 3');
+queue.enqueue('data item 4');
 // queue contains:
 // 'data item 1', <-- front
 //  ... ,
@@ -121,7 +121,7 @@ queue.isEmpty();
 * ### clear()
     Clears the queue of all data
 
-* ### queue()
+* ### enqueue()
     Adds an new item containing 'data' to the back of the queue
 
 * ### dequeue()
