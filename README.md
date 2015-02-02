@@ -1,4 +1,4 @@
-# [![npm version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![dependency status][dm-url]][dm-image]
+# [![npm version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![dependency status][dm-image]][dm-url]
 
 # Queue Data Structure
 
@@ -139,5 +139,5 @@ MIT &copy; Jason Jones
 [npm-url]:http://npmjs.org/package/queue-fifo
 [travis-image]:https://travis-ci.org/jasonsjones/queue-fifo.svg
 [travis-url]:https://travis-ci.org/jasonsjones/queue-fifo
-[dm-image]:https://david-dm.org/jasonsjones/queue-fifo
-[dm-url]:https://david-dm.org/jasonsjones/queue-fifo.svg
+[dm-url]:https://david-dm.org/jasonsjones/queue-fifo
+[dm-image]:https://david-dm.org/jasonsjones/queue-fifo.svg
