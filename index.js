@@ -99,4 +99,4 @@
     // export the constructor fn to make it available for use outside
     // this file
     module.exports = Queue;
-})();
+}());
