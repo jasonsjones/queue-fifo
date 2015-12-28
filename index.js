@@ -1,7 +1,6 @@
 /**
  * @fileOverview Implementation of a queue (FIFO) data structure
  * @author Jason S. Jones
- * @version 0.2.1
  * @license MIT
  */
 
