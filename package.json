@@ -22,12 +22,15 @@
   },
   "homepage": "https://github.com/jasonsjones/queue-fifo",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-mocha-cli": "^1.12.0",
-    "jshint-stylish": "^1.0.0",
-    "mocha": "^2.1.0",
-    "should": "^4.6.1"
+    "gulp": "^3.9.0",
+    "gulp-jscs": "^1.6.0",
+    "gulp-jshint": "^1.12.0",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "jshint-stylish": "^1.0.2",
+    "mocha": "^2.3.0",
+    "should": "8.0.2"
   },
   "dependencies": {
     "dbly-linked-list": "^0.1.3"
