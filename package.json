@@ -23,6 +23,7 @@
   "homepage": "https://github.com/jasonsjones/queue-fifo",
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-istanbul": "0.10.3",
     "gulp-jscs": "^1.6.0",
     "gulp-jshint": "^1.12.0",
     "gulp-load-plugins": "^0.8.0",
