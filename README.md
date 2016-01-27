@@ -1,4 +1,4 @@
-[![npm version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![dependency status][dm-image]][dm-url]
+[![npm version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![dependency status][dm-image]][dm-url] [![devDependency status][devdep-image]][devdep-url]
 
 # Queue Data Structure
 
@@ -141,3 +141,5 @@ MIT &copy; Jason Jones
 [travis-url]:https://travis-ci.org/jasonsjones/queue-fifo
 [dm-image]:https://david-dm.org/jasonsjones/queue-fifo.svg
 [dm-url]:https://david-dm.org/jasonsjones/queue-fifo
+[devdep-image]:https://david-dm.org/jasonsjones/queue-fifo/dev-status.svg
+[devdep-url]:https://david-dm.org/jasonsjones/queue-fifo#info=devDependencies
