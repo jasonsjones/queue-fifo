@@ -1,6 +1,6 @@
 {
   "name": "queue-fifo",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Javascript implementation of a queue data structure",
   "main": "index.js",
   "scripts": {
