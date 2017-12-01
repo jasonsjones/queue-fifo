@@ -1,4 +1,8 @@
-[![npm version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![dependency status][dm-image]][dm-url] [![devDependency status][devdep-image]][devdep-url]
+[![npm version][npm-image]][npm-url]
+[![Build Status][circleci-image]][circleci-url]
+[![dependency status][dm-image]][dm-url]
+[![devDependency status][devdep-image]][devdep-url]
+[![npm](https://img.shields.io/npm/l/queue-fifo.svg?style=flat-square)]()
 
 # Queue Data Structure
 
@@ -66,6 +70,13 @@ Install with npm :
 ```bash
 npm install queue-fifo --save
 ```
+
+Install with yarn :
+
+```bash
+yarn add queue-fifo
+```
+
 Basic usage example below.  _Note: it does not cover all the available
 methods, rather just highlights the main functionality to get up and running
 with this data structure. For a description of all the methods, see the
@@ -73,7 +84,7 @@ API section._
 
 ```javascript
 var Queue = require('queue-fifo');
-var queue - new Queue();
+var queue = new Queue();
 
 queue.isEmpty();
 // --> true
@@ -137,9 +148,9 @@ MIT &copy; Jason Jones
 
 [npm-image]:https://badge.fury.io/js/queue-fifo.svg
 [npm-url]:http://npmjs.org/package/queue-fifo
-[travis-image]:https://travis-ci.org/jasonsjones/queue-fifo.svg
-[travis-url]:https://travis-ci.org/jasonsjones/queue-fifo
-[dm-image]:https://david-dm.org/jasonsjones/queue-fifo.svg
+[circleci-image]: https://img.shields.io/circleci/project/github/jasonsjones/queue-fifo.svg?style=flat-square
+[circleci-url]: https://circleci.com/gh/jasonsjones/queue-fifo
+[dm-image]:https://david-dm.org/jasonsjones/queue-fifo.svg?style=flat-square
 [dm-url]:https://david-dm.org/jasonsjones/queue-fifo
-[devdep-image]:https://david-dm.org/jasonsjones/queue-fifo/dev-status.svg
-[devdep-url]:https://david-dm.org/jasonsjones/queue-fifo#info=devDependencies
+[devdep-image]:https://david-dm.org/jasonsjones/queue-fifo/dev-status.svg?style=flat-square
+[devdep-url]:https://david-dm.org/jasonsjones/queue-fifo?type=dev
