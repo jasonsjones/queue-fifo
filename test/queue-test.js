@@ -1,7 +1,8 @@
 /* globals describe it beforeEach afterEach */
-
-var should = require('should');
+var chai = require('chai');
 var Queue = require('../');
+
+chai.should();
 
 describe('Queue Unit Tests', function() {
 
