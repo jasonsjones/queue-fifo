@@ -76,11 +76,15 @@
         },
 
         /**
-         * Removes the item from the front of the queue
+         * Removes the item from the front of the queue.
          *
-         * @returns {object} the item, or data, from the front of the queue
+         * @returns {object} the item, or data, from the front of the queue.  If
+         *                   the list is empty, returns null.
          */
         dequeue: function () {
+            if (this.isEmpty()) {
+                return null;
+            }
             return this._list.removeFirst().getData();
         },
 
@@ -88,9 +92,13 @@
          * Returns the data of the item at the front of the queue,
          * but does not remove it
          *
-         * @returns {object} the item, or data, from the top of the stack
+         * @returns {object} the item, or data, from the front of the queue.  If
+         *                   the list is empty, returns null.
          */
         peek: function () {
+            if (this.isEmpty()) {
+                return null;
+            }
             return this._list.getHeadNode().getData();
         }
     };

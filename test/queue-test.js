@@ -1,4 +1,3 @@
-/* globals describe it beforeEach afterEach */
 var chai = require('chai');
 var Queue = require('../');
 
@@ -44,6 +43,12 @@ describe('Queue data structure', function() {
         expect(queue.size()).to.equal(1);
     });
 
+    it('returns null if dequeue is called on an empty list', function () {
+        expect(queue.isEmpty()).to.be.true;
+        expect(queue.size()).to.equal(0);
+        expect(queue.dequeue()).to.be.null;
+    });
+
     it('peeks at the data at the front of the queue', function () {
         queue.enqueue('some test data');
         queue.enqueue('some more test data');
@@ -54,6 +59,12 @@ describe('Queue data structure', function() {
         var first = queue.peek();
         expect(first).to.equal('some test data');
         expect(queue.size()).to.equal(4);
+    });
+
+    it('returns null if peek is called on an empty list', function () {
+        expect(queue.isEmpty()).to.be.true;
+        expect(queue.size()).to.equal(0);
+        expect(queue.peek()).to.be.null;
     });
 
     it('clears the queue of all data', function () {
