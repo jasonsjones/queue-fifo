@@ -3,6 +3,7 @@
   "version": "0.2.5",
   "description": "Javascript implementation of a queue data structure",
   "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "pretest": "npm run lint",
     "test": "nyc mocha",
