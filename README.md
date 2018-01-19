@@ -118,6 +118,15 @@ queue.isEmpty();
 // --> true
 ```
 
+TypeScript definitions are also provided:
+
+```typescript
+import Queue = require('queue-fifo');
+
+let stringQueue = new Queue<string>();
+let numberQueue = new Queue<number>();
+```
+
 ## API
 
 **Available methods for a queue instance:**
