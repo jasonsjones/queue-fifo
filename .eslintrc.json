@@ -1,7 +1,19 @@
 {
-    "extends": "eslint:recommended",
+    "extends": ["eslint:recommended"],
     "env": {
         "node": true,
         "mocha": true
+    },
+    "rules": {
+        "semi": "warn",
+        "curly": "warn",
+        "eqeqeq": "error",
+        "space-before-function-paren": ["error", {
+            "anonymous": "always"
+        }],
+        "no-multi-spaces": "warn",
+        "indent": "warn",
+        "no-tabs": "error",
+        "wrap-iife": "warn"
     }
 }
