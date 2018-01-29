@@ -30,7 +30,7 @@
      *
      * @constructor
      */
-    function Queue () {
+    function Queue() {
         this._list = new LinkedList();
     }
 
