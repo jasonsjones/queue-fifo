@@ -4,7 +4,7 @@
  * @license MIT
  */
 
-(function() {
+(function () {
     'use strict';
 
     /***********************************************************
@@ -30,7 +30,7 @@
      *
      * @constructor
      */
-    function Queue() {
+    function Queue () {
         this._list = new LinkedList();
     }
 
@@ -46,7 +46,7 @@
          *
          * @returns {boolean} true if the queue is empty, false otherwise
          */
-        isEmpty: function() {
+        isEmpty: function () {
             return this._list.isEmpty();
         },
 
@@ -55,7 +55,7 @@
          *
          * @returns {number} the number of items in the queue
          */
-        size: function() {
+        size: function () {
             return this._list.getSize();
         },
 

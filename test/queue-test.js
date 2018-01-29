@@ -3,7 +3,7 @@ var Queue = require('../');
 
 var expect = chai.expect;
 
-describe('Queue data structure', function() {
+describe('Queue data structure', function () {
     var queue;
 
     beforeEach(function () {
