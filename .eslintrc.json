@@ -9,7 +9,8 @@
         "curly": "warn",
         "eqeqeq": "error",
         "space-before-function-paren": ["error", {
-            "anonymous": "always"
+            "anonymous": "always",
+            "named": "never"
         }],
         "no-multi-spaces": "warn",
         "indent": "warn",
