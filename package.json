@@ -1,37 +1,37 @@
 {
-  "name": "queue-fifo",
-  "version": "0.2.5",
-  "description": "Javascript implementation of a queue data structure",
-  "main": "index.js",
-  "typings": "index.d.ts",
-  "scripts": {
-    "pretest": "npm run lint",
-    "test": "nyc mocha",
-    "lint": "eslint index.js test/*.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jasonsjones/queue-fifo.git"
-  },
-  "keywords": [
-    "queue",
-    "FIFO",
-    "abstract data-type",
-    "data structure"
-  ],
-  "author": "Jason Jones",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jasonsjones/queue-fifo/issues"
-  },
-  "homepage": "https://github.com/jasonsjones/queue-fifo",
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "eslint": "^4.16.0",
-    "mocha": "^5.0.0",
-    "nyc": "^11.4.0"
-  },
-  "dependencies": {
-    "dbly-linked-list": "0.2.0"
-  }
+    "name": "queue-fifo",
+    "version": "0.2.5",
+    "description": "Javascript implementation of a queue data structure",
+    "main": "index.js",
+    "typings": "index.d.ts",
+    "scripts": {
+        "pretest": "npm run lint",
+        "test": "nyc mocha",
+        "lint": "eslint index.js test/*.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jasonsjones/queue-fifo.git"
+    },
+    "keywords": [
+        "queue",
+        "FIFO",
+        "abstract data-type",
+        "data structure"
+    ],
+    "author": "Jason Jones",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jasonsjones/queue-fifo/issues"
+    },
+    "homepage": "https://github.com/jasonsjones/queue-fifo",
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "eslint": "^5.16.0",
+        "mocha": "^6.1.4",
+        "nyc": "^14.1.1"
+    },
+    "dependencies": {
+        "dbly-linked-list": "0.3.4"
+    }
 }
