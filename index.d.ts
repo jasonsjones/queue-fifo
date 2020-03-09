@@ -6,6 +6,7 @@ declare module 'queue-fifo' {
         public enqueue(data: T): void;
         public dequeue(): T | null;
         public peek(): T | null;
+        public remove(data: any): void;
     }
 
     export = Queue;

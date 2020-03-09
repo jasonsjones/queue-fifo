@@ -100,6 +100,13 @@
                 return null;
             }
             return this._list.getHeadNode().getData();
+        },
+        
+        remove: function (data) {
+            if (this.isEmpty()) {
+                return;
+            }
+            this._list.removeNode(data);
         }
     };
 
